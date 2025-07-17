@@ -1,0 +1,28 @@
+# General
+node_modules/
+dist/
+.env
+.env.local
+.env.development
+.env.production
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite
+.vite/
+
+# VSCode
+.vscode/
+
+# Client-specific
+client/node_modules/
+client/dist/
+
+# Server-specific
+server/node_modules/
+server/dist/

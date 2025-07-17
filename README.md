@@ -1,46 +1,29 @@
-# Vite React + Node.js Express Project
+# 💸 Quota
 
-This project contains a Vite React frontend with Tailwind CSS and a Node.js + Express backend in a single repository.
+**Quota** es una app web que te ayuda a organizar y recordar los pagos de suscripciones compartidas con otras personas (como Spotify, Netflix, etc.). Creás una suscripción, agregás a los participantes, y cada mes Quota les recuerda cuánto deben pagar, con un link fácil para hacerlo.
 
-## Project Structure
+## ✨ Características
 
-- `client/` - Vite React frontend with Tailwind CSS
-- `server/` - Node.js Express backend
+- Crear suscripciones compartidas.
+- Dividir el monto entre participantes.
+- Recordatorios automáticos por email o WhatsApp.
+- Links de pago personalizados (ej. MercadoPago).
+- Historial de pagos y estado de cada participante.
 
-## Setup Instructions
+> ⚠️ **Quota no cobra automáticamente**: solo envía recordatorios y facilita el proceso de pago entre personas.
 
-### Frontend
+## ⚙️ Tecnologías (MVP)
 
-1. Navigate to the `client` directory:
-   ```
-   cd client
-   ```
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Run the development server:
-   ```
-   npm run dev
-   ```
+- **Frontend**: React + Vite + TailwindCSS
+- **Backend**: Firebase (Auth + Firestore)
+- **Notificaciones**: Email (Firebase Extensions o Resend)
+- **Pagos**: MercadoPago (link de pago)
+- **Deploy**: Vercel / Firebase Hosting
 
-### Backend
+## 🛠 Estado del proyecto
 
-1. Navigate to the `server` directory:
-   ```
-   cd server
-   ```
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Start the server:
-   ```
-   node server.js
-   ```
+En desarrollo — primera versión MVP enfocada en la web app.
 
-## Notes
+## 📄 Licencia
 
-- The frontend runs on port 5173 by default.
-- The backend runs on port 3000 by default.
-- You can configure proxying or CORS as needed for development.
+MIT © [Luciano Cisneros](https://github.com/lucianoCisneros)

@@ -12,14 +12,6 @@
 
 > ⚠️ **Quota no cobra automáticamente**: solo envía recordatorios y facilita el proceso de pago entre personas.
 
-## ⚙️ Tecnologías (MVP)
-
-- **Frontend**: React + Vite + TailwindCSS
-- **Backend**: Firebase (Auth + Firestore)
-- **Notificaciones**: Email (Firebase Extensions o Resend)
-- **Pagos**: MercadoPago (link de pago)
-- **Deploy**: Vercel / Firebase Hosting
-
 ## 🛠 Estado del proyecto
 
 En desarrollo — primera versión MVP enfocada en la web app.
